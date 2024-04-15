@@ -1,0 +1,14 @@
+default_platform(:ios)
+
+platform :ios do
+  lane :test do |options|
+    sonar(
+      project_key: "alphagov_govuk-mobile-ios-services",
+      project_version: "1.0",
+      project_name: "GOVUK Mobile iOS Services",
+      sonar_organization: "alphagov",
+      sonar_token: options[:sonar_token],
+      sonar_url: "https://sonarcloud.io"
+    )
+  end
+end
