@@ -25,14 +25,14 @@
 			containerPortal = 5D5018902BD101F0005ABC1C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5D5018972BD101F0005ABC1C;
-			remoteInfo = "govuk-mobile-ios-onboarding";
+			remoteInfo = "govuk_mobile_ios_services";
 		};
 		5D5018B92BD101F3005ABC1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5D5018902BD101F0005ABC1C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5D5018972BD101F0005ABC1C;
-			remoteInfo = "govuk-mobile-ios-onboarding";
+			remoteInfo = "govuk_mobile_ios_services";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -213,7 +213,7 @@
 			packageProductDependencies = (
 				5DE7B4E22BD84F6300202299 /* Services */,
 			);
-			productName = "govuk-mobile-ios-onboarding";
+			productName = "govuk_mobile_ios_services";
 			productReference = 5D5018982BD101F0005ABC1C /* govuk_services_ios.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -231,7 +231,7 @@
 				5D5018B02BD101F3005ABC1C /* PBXTargetDependency */,
 			);
 			name = govuk_services_ios_unit_tests;
-			productName = "govuk-mobile-ios-onboardingTests";
+			productName = "govuk_mobile_ios_services_unit_tests";
 			productReference = 5D5018AE2BD101F3005ABC1C /* govuk_services_ios_unit_tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -249,7 +249,7 @@
 				5D5018BA2BD101F3005ABC1C /* PBXTargetDependency */,
 			);
 			name = govuk_services_ios_ui_tests;
-			productName = "govuk-mobile-ios-onboardingUITests";
+			productName = "govuk_mobile_ios_services_ui_tests";
 			productReference = 5D5018B82BD101F3005ABC1C /* govuk_services_ios_ui_tests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
