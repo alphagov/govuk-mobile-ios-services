@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:">
+   </FileRef>
+   <FileRef
       location = "container:/Users/thomas.bates/Code/gds/govuk-mobile-ios-services/Example/GovUK-Services.xcodeproj">
    </FileRef>
 </Workspace>
