@@ -1,6 +1,6 @@
 included:
   - Example/Production
-  - Onboarding/Sources
+  - Services/Sources
 
 analyzer_rules:
 - unused_import
