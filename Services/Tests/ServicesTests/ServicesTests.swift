@@ -1,7 +1,8 @@
 import XCTest
-@testable import Onboarding
 
-final class OnboardingTests: XCTestCase {
+@testable import Services
+
+final class ServicesTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest
