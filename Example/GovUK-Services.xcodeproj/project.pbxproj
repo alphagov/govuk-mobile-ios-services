@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3E04A32BD8E7F400008D31 /* Services in Frameworks */ = {isa = PBXBuildFile; productRef = 5D3E04A22BD8E7F400008D31 /* Services */; };
 		5D50189C2BD101F0005ABC1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50189B2BD101F0005ABC1C /* AppDelegate.swift */; };
 		5D50189E2BD101F0005ABC1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50189D2BD101F0005ABC1C /* SceneDelegate.swift */; };
 		5D5018A02BD101F0005ABC1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50189F2BD101F0005ABC1C /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		5D5018B32BD101F3005ABC1C /* ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5018B22BD101F3005ABC1C /* ServicesTests.swift */; };
 		5D5018BD2BD101F3005ABC1C /* ServicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5018BC2BD101F3005ABC1C /* ServicesUITests.swift */; };
 		5D5018BF2BD101F3005ABC1C /* ServicesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5018BE2BD101F3005ABC1C /* ServicesUITestsLaunchTests.swift */; };
-		5DE7B4E32BD84F6300202299 /* Services in Frameworks */ = {isa = PBXBuildFile; productRef = 5DE7B4E22BD84F6300202299 /* Services */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,14 +25,14 @@
 			containerPortal = 5D5018902BD101F0005ABC1C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5D5018972BD101F0005ABC1C;
-			remoteInfo = "govuk_mobile_ios_services";
+			remoteInfo = govuk_mobile_ios_services;
 		};
 		5D5018B92BD101F3005ABC1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5D5018902BD101F0005ABC1C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5D5018972BD101F0005ABC1C;
-			remoteInfo = "govuk_mobile_ios_services";
+			remoteInfo = govuk_mobile_ios_services;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE7B4E32BD84F6300202299 /* Services in Frameworks */,
+				5D3E04A32BD8E7F400008D31 /* Services in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +211,9 @@
 			);
 			name = govuk_services_ios;
 			packageProductDependencies = (
-				5DE7B4E22BD84F6300202299 /* Services */,
+				5D3E04A22BD8E7F400008D31 /* Services */,
 			);
-			productName = "govuk_mobile_ios_services";
+			productName = govuk_mobile_ios_services;
 			productReference = 5D5018982BD101F0005ABC1C /* govuk_services_ios.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -231,7 +231,7 @@
 				5D5018B02BD101F3005ABC1C /* PBXTargetDependency */,
 			);
 			name = govuk_services_ios_unit_tests;
-			productName = "govuk_mobile_ios_services_unit_tests";
+			productName = govuk_mobile_ios_services_unit_tests;
 			productReference = 5D5018AE2BD101F3005ABC1C /* govuk_services_ios_unit_tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -249,7 +249,7 @@
 				5D5018BA2BD101F3005ABC1C /* PBXTargetDependency */,
 			);
 			name = govuk_services_ios_ui_tests;
-			productName = "govuk_mobile_ios_services_ui_tests";
+			productName = govuk_mobile_ios_services_ui_tests;
 			productReference = 5D5018B82BD101F3005ABC1C /* govuk_services_ios_ui_tests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -704,7 +704,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5DE7B4E22BD84F6300202299 /* Services */ = {
+		5D3E04A22BD8E7F400008D31 /* Services */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Services;
 		};
