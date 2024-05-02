@@ -14,3 +14,5 @@ jobs:
     uses: ./.github/workflows/lint.yml
   unit-test:
     uses: ./.github/workflows/unit_test.yml
+  sonar:
+    uses: ./.github/workflows/sonar.yml
