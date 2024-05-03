@@ -3,6 +3,7 @@ default: &DEFAULTS
   app: &APP_DEFAULTS
     scheme: GovUK-Services
     output_directory: build_output
+    project: GovUK-Services.xcodeproj
   scan:
     devices:
       - iPhone 15 Pro
