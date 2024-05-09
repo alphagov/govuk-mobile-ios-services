@@ -3,6 +3,7 @@ default: &DEFAULTS
   app: &APP_DEFAULTS
     scheme: GovUK-Services
     output_directory: build_output
+    workspace: GovUK-Services.xcworkspace
     project: Example/GovUK-Services.xcodeproj
     test_plan: Services
   scan:

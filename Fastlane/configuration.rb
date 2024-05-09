@@ -25,6 +25,10 @@ class Configuration
     setting(:app, :project)
   end
 
+  def app_workspace
+    setting(:app, :workspace)
+  end
+
   def test_plan
     setting(:app, :test_plan)
   end
