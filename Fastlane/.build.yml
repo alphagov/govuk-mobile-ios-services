@@ -4,7 +4,7 @@ default: &DEFAULTS
     scheme: GovUK-Services
     output_directory: build_output
     project: GovUK-Services.xcodeproj
-    test_plan: Services.xctestplan
+    test_plan: Services
   scan:
     devices:
       - iPhone 15 Pro
